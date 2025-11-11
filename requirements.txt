@@ -1,12 +1,21 @@
+# FastAPI for API endpoints
 fastapi
 uvicorn[standard]
 python-multipart
-torch==2.3.1+cpu
-torchaudio==2.3.1+cpu
+
+# PyTorch CPU-only
+torch==2.2.1+cpu --index-url https://download.pytorch.org/whl/cpu
+torchaudio==2.2.1+cpu --index-url https://download.pytorch.org/whl/cpu
+
+# Transformers & datasets for YarnGPT / Whisper
 transformers
 datasets
 whisper-timestamped
+
+# Numerical & audio processing
 numpy
 scipy
+
+# For downloading large models
 gdown
 gitpython
