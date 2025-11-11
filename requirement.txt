@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+python-multipart
+torch==2.3.1+cpu
+torchaudio==2.3.1+cpu
+transformers
+datasets
+whisper-timestamped
+numpy
+scipy
+gdown
+gitpython
